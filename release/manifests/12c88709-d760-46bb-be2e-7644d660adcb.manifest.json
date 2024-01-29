@@ -1,0 +1,55 @@
+{
+  "id": "12c88709-d760-46bb-be2e-7644d660adcb",
+  "alias": "IfcSimpleWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "ifc-simple"
+      },
+      "description": {
+        "default": "ifc-simple description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "ifc-simple"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "ifc-simple-web-part",
+    "scriptResources": {
+      "ifc-simple-web-part": {
+        "type": "path",
+        "path": "ifc-simple-web-part.js"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.18.1"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6",
+        "version": "1.18.1"
+      }
+    }
+  }
+}

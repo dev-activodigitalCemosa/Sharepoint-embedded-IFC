@@ -1,0 +1,30 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import 'https://dev-activodigitalcemosa.github.io/IFCLoader/dist/assets/index-65c80c14.css';
+
+.sharepointViewer {
+  height: 30rem;
+}
+.customButton{
+  padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.customButton:hover {
+    background-color: #45a049;
+}
+
+.buttonHover {
+    /* Estilos adicionales al pasar el ratón sobre el botón, si es necesario */
+}
+
+ 
