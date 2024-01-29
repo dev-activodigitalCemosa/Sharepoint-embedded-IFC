@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ifc-simple-client-side-solution",
+    "id": "eb10b238-e124-4c3d-8165-6380817cbe59",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ifc-simple description"
+      },
+      "longDescription": {
+        "default": "ifc-simple description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ifc-simple Feature",
+        "description": "The feature that activates elements of the ifc-simple solution.",
+        "id": "04026829-edae-41e3-b495-0b38e29839be",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ifc-simple.sppkg"
+  }
+}

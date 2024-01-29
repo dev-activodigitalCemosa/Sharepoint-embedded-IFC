@@ -1,0 +1,1 @@
+{"version":3,"file":"Ventana.d.ts","sourceRoot":"","sources":["../../src/webparts/Ventana.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAO,OAAO,CAAC;AAG3B,UAAU,iBAAiB;IACzB,OAAO,EAAE,OAAO,CAAC;IACjB,WAAW,EAAE,MAAM,IAAI,CAAC;CACzB;AAED,QAAA,MAAM,YAAY,EAAE,KAAK,CAAC,EAAE,CAAC,iBAAiB,CAiBlC,CAAA;AAIZ,eAAe,YAAY,CAAC"}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventana Emergente</title>
+    <style>
+        /* Estilos para la ventana modal */
+        #miVentanaModal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Botón para abrir la ventana modal -->
+<button onclick="abrirModal()">Abrir Ventana</button>
+
+<!-- Contenido de la ventana modal -->
+<div id="miVentanaModal">
+    <p>Contenido de la ventana modal</p>
+    <button onclick="cerrarModal()">Cerrar Ventana</button>
+</div>
+
+<script>
+    // Función para abrir la ventana modal
+    function abrirModal() {
+        document.getElementById('miVentanaModal').style.display = 'block';
+    }
+
+    // Función para cerrar la ventana modal
+    function cerrarModal() {
+        document.getElementById('miVentanaModal').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>
